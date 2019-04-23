@@ -1,12 +1,13 @@
-# Express JWT 회원인증 API ![name](https://img.shields.io/badge/by-Jeongmin-green.svg)
+## Express JWT 회원인증 API ![name](https://img.shields.io/badge/by-Jeongmin-green.svg)
 Express를 이용한 간단한 JWT 회원인증 API입니다.
 
-# 목차
+## 목차
 - [1. 라이브러리](#라이브러리)
 - [2. API Doc](#api-doc)
 - [Reference](#reference)
 
-# 라이브러리
+## 라이브러리
+
 Dependency|Version|ETC
 -|-|-
 Express|4.16.4|
@@ -15,7 +16,8 @@ mongoose|5.5.2|
 morgan|1.9.1|
 body-parser|1.18.3|Express 4.16부터 내장되므로 의존 추가 불필요
 
-# API Doc
+## API Doc
+
 API|설명|비고
 -|-|-
 /api/auth/login|사용자 로그인|Request : id, password
@@ -24,7 +26,7 @@ API|설명|비고
 
 - config 파일에 데이터베이스 정보 입력 (현재설정: 로컬 mongoDB)
 
-# Reference
+## Reference
 - [Node.js 로 JWT(JsonWebToken) 방식 RESTful api login 구현](https://g6ling.github.io/2016/09/17/nodejs-jwt-login/)
 - [MongoDB Docs](https://docs.mongodb.com/manual/crud/#read-operations)
 - [JWT 간단설명](https://tech.songyunseop.com/post/2017/03/express-with-jwt/)
