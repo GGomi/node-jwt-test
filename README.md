@@ -8,15 +8,7 @@ Express를 이용한 간단한 JWT 회원인증 API입니다.
 
 ## 라이브러리
 
-<head>
-    <style>  
-    th, td {
-        border: 2px solid;
-    } 
-    </style>
-</head>
-
-<table>
+<table border="2">
 <thead>
     <tr>
         <th>Dependency</th>
@@ -47,7 +39,7 @@ Express를 이용한 간단한 JWT 회원인증 API입니다.
 
 ## API Doc
 
-<table>
+<table border="2">
 <thead>
     <tr>
         <th>API</th>
